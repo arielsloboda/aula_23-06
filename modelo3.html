@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        document.write("Sistema de Cadastro");
+
+        document.write("<br><br>CADASTRO FINALIZADO")
+
+        let resp = prompt ("Deseja cadastrar Cliente? (Digite S para SIM ou qualquer tecla para SAIR) ");
+
+        while (resp=="S" || resp=="s") {
+            let nome = prompt ("Digite Nome do Cliente: ");
+            resp = prompt("Deseja Continuar no Cadastro? (Digite S para SIM ou qualquer tecla para SAIR) ");
+        }
+    </script>
+</body>
+</html>
